@@ -31,4 +31,5 @@ extends:
     nugetServiceConnection: Nuget.org Take  
     includeSymbols: true
     testParameters: --configuration Release --no-build --filter "Category=Memory"
-    wayParameter: 'src/Take.Elephant/Take.Elephant.csproj'
+    wayParameter: 'src/Take.Elephant.Sql/Take.Elephant.Sql.csproj'
+    
