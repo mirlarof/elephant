@@ -29,7 +29,7 @@ extends:
     type: dotnet
     to: nuget
     nugetServiceConnection: Nuget.org Take  
-    includeSymbols: false
+    includeSymbols: true
     testParameters: --configuration Release --no-build --filter "Category=Memory"
-    wayParameter: 'src/Take.Elephant/Take.Elephant.csproj'
+    wayParameter: '**/*.csproj'
     
