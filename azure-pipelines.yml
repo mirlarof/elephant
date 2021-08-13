@@ -31,8 +31,6 @@ extends:
     nugetServiceConnection: Nuget.org Take  
     includeSymbols: true
     testParameters: --configuration Release --no-build --filter "Category=Memory"
- 
-extends:
   template: template-pipeline.yml@templates    
   parameters:    
     packagename: elephant    
