@@ -31,4 +31,4 @@ extends:
     nugetServiceConnection: Nuget.org Take  
     includeSymbols: true
     testParameters: --configuration Release --no-build --filter "Category=Memory"
-    wayParameters: 
+    wayParameter: 
