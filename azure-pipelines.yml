@@ -6,6 +6,7 @@
 trigger:
 - master
 - main
+- beta/*
 
 name: 0.9$(Rev:.r)
 pool:
@@ -20,7 +21,7 @@ resources:
   - repository: templates
     type: git
     name: Operações/template-take-blip
-    ref: refs/tags/v1.2.1
+    ref: refs/heads/feature/branchBeta
 
 extends:
   template: template-pipeline.yml@templates    
